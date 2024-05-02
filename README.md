@@ -15,4 +15,8 @@ go build --mod vendor --ldflags="-s -w -X 'main.VERSION=$(cat VERSION)'" -o /exa
 
 The `main.VERSION` variable is updated according to the output of the VERSION file.
 
-For demonstration, locally clone the repository and execute `make run`.
+For demonstration, locally clone the repository and execute:
+
+```bash
+make run
+```
